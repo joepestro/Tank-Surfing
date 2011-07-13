@@ -1,0 +1,167 @@
+#m {
+	position:fixed;
+	overflow:hidden;
+	z-index:6;
+	background-color:#fff;
+}
+
+.webkit-mini {
+	bottom:100px;
+	right:100px;
+	width:20%;
+	height:100%;
+	max-width:2000px;
+	max-height:2000px;
+	zoom:20%;
+	border:10px solid #9fc8ea;
+	font-size:8px;
+}
+
+.mozilla-mini {
+	bottom: 20px;
+	right: 20px;
+	width: 40%;
+	height: 40%;
+	border: 2px solid #9fc8ea;
+	font-size: 50%;
+}
+
+.mozilla-mini img {
+	width: 50%;
+	height: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+#fog {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:5;
+}
+
+#fog-mini {
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	z-index:7;
+}
+
+#player {
+	position:absolute;
+	top:200px;
+	left:400px;
+	z-index:2;
+}
+
+#player #tank {
+	position:relative;
+}
+
+#player span {
+	color:#888;
+	font-family:lucida console;
+	font-size:9px;
+	padding:4px;
+	display:block;
+	text-align:center;
+	width:20px;
+}
+
+.webkit-player-mini {
+	width:50px;
+	height:50px;
+	-webkit-border-radius:50px;
+}
+
+.mozilla-player-mini {
+	width: 10px;
+	height: 10px;
+	-moz-border-radius:50px;
+}
+
+#player-mini {
+	display:block;
+	background-color:#9fc8ea;
+	z-index:7;
+}
+
+.bullet {
+	position:absolute;
+	z-index:1;
+}
+
+iframe.bubble {
+	z-index: 50;
+	height: 80px;
+	background: none !important;
+}
+
+#left {
+	left: 20px;
+	bottom: 20px;
+}
+
+#right {
+	left: 200px;
+	bottom: 20px;
+}
+
+#up {
+	left: 110px;
+	bottom: 110px;
+}
+
+#down {
+	left: 110px;
+	bottom: 20px;
+}
+
+#spacebar {
+	left: 20px;
+	bottom: 240px;
+	width: 254px;
+}
+
+.key {
+	color: #222;
+	width: 74px;
+	height: 74px;
+	background: url(/images/key.png) repeat-x;
+	border: 1px solid #ccc;
+	opacity: 0.9;
+	position: fixed;
+	z-index: 10;
+	text-align: center;
+	font-family: helvetica, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	font-size: 36px;
+	line-height: 74px;
+	cursor: default;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.pressed {
+	color: #fff;
+	background: #1f4adf;
+}
+
+#overlay {
+	font-family: arial;
+	font-size: 13px;
+	padding-top: 20%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 2em;
+	background-color: #fff;
+	color: #000;
+	z-index: 100;
+}
+
+#overlay p.frown {
+	font-size: 100px;
+	padding-bottom: 50px;
+}

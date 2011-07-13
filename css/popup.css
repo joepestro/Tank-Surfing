@@ -1,0 +1,97 @@
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* http://jqueryfordesigners.com/demo/coda-bubble.html */
+
+.popup {
+	position: absolute;
+	z-index: 50;
+	border-collapse: collapse;
+}
+
+.popup td.corner {
+	height: 15px;
+	width: 19px;
+}
+
+.popup td#topleft { background-image: url(/images/bubble-1.png); }
+.popup td.top { background-image: url(/images/bubble-2.png); }
+.popup td#topright { background-image: url(/images/bubble-3.png); }
+.popup td.left { background-image: url(/images/bubble-4.png); }
+.popup td.right { background-image: url(/images/bubble-5.png); }
+.popup td#bottomleft { background-image: url(/images/bubble-6.png); }
+.popup td.bottom { background-image: url(/images/bubble-7.png); text-align: center;}
+.popup td.bottom img { display: block; margin: 0 auto; }
+.popup td#bottomright { background-image: url(/images/bubble-8.png); }
+
+.popup div.popup-contents {
+	font-size: 12px;
+	line-height: 1.5em;
+	background-color: #fff;
+	color: #666;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+
+div.popup-contents th {
+	text-align: right;
+	text-transform: lowercase;
+}
+
+div.popup-contents td {
+	text-align: left;
+}
+
+div.popup-contents p {
+	text-align: center;
+}
